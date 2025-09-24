@@ -1,0 +1,1471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{90c21b1f-a82d-420a-9f47-146986642b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\minhook">
+      <UniqueIdentifier>{2f590b72-0214-4e13-a582-8f5b4f9735e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\minhook\NewFilter1">
+      <UniqueIdentifier>{61f29efe-d0ac-4d3c-8399-262cb09b6970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\minhook\hde">
+      <UniqueIdentifier>{da905d2e-5a68-4742-b3b4-e855f1cf202f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils">
+      <UniqueIdentifier>{fe479f1d-b255-4cb2-a914-ce5436dc6ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\Memory">
+      <UniqueIdentifier>{c23937a4-d59f-493e-9068-53453f95e12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\SigScanner">
+      <UniqueIdentifier>{efb0d236-ae35-4090-bd1b-0ae840a41d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\Vector">
+      <UniqueIdentifier>{0c04e657-9659-4e06-96c7-6e092a89461f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Classes">
+      <UniqueIdentifier>{23be4ccd-ee82-42ca-8fcb-0c4ac6dfb8f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\DrawManager">
+      <UniqueIdentifier>{29461245-2d37-4aaa-a5ab-e6ee0a209e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{7547e207-1110-4ed2-ad08-8eed63aecfe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\EnginePred">
+      <UniqueIdentifier>{998daf80-d260-4168-a91c-900eb7bac1a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\NetVarManager">
+      <UniqueIdentifier>{74536f94-670c-4cc4-9eb9-90e6d3b48391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\ESP">
+      <UniqueIdentifier>{022a6cc4-cb46-4d2f-b41e-3b167dcb3d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Menu">
+      <UniqueIdentifier>{3541f17f-d3cb-436d-9b3f-a939dbad9ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Misc">
+      <UniqueIdentifier>{c417b094-de6f-4367-93e8-759f7c549cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\CritHack">
+      <UniqueIdentifier>{9b62f7f2-a700-4ab5-8147-a4473008e4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot">
+      <UniqueIdentifier>{2a049c65-7e17-4eec-bd86-8d70ae524382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot\Hitscan">
+      <UniqueIdentifier>{f8033c63-f8ce-4306-99f4-52f356c17dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot\Projectile">
+      <UniqueIdentifier>{df1c79ff-bd45-4934-99e2-91bd791f64b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\ImGui">
+      <UniqueIdentifier>{a6ff6f0a-9192-4d5b-ba82-c1941ee75973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Steam">
+      <UniqueIdentifier>{db99ceaf-66d1-467b-9ae5-d166c4370756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\EntityCache">
+      <UniqueIdentifier>{d163bc70-1d2c-4dd8-a286-4e97172f187e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry">
+      <UniqueIdentifier>{01461d8e-5de9-4dd0-8a9b-fc63864d2daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry\Hooks">
+      <UniqueIdentifier>{f4e78986-807b-4589-96b4-e33bbf426425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry\Hooks\Detours">
+      <UniqueIdentifier>{75807e49-d6a8-4f4f-9092-6e876a898a65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry\Console">
+      <UniqueIdentifier>{b419d64b-a2de-489c-911d-d4c6ee3f45de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry\SignatureManager">
+      <UniqueIdentifier>{6c977059-a520-4c35-b77b-a0f17fc17f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Priority">
+      <UniqueIdentifier>{615dd5c0-45f9-402c-9d6a-a685c13c7dff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Visuals">
+      <UniqueIdentifier>{4f499762-40e8-4e8c-972c-03b1fb641db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Menu\nigger">
+      <UniqueIdentifier>{fed16950-e551-49f4-a1a1-980db0d56154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\Hash">
+      <UniqueIdentifier>{33d48189-39b1-49b7-950b-330ba8a58b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\HvH">
+      <UniqueIdentifier>{fc682673-b315-406c-97d7-72c0e1fdc0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\HvH\AA">
+      <UniqueIdentifier>{49c3b18e-0bbf-4750-8ca4-7e7a69a0d23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\HvH\Fakelag">
+      <UniqueIdentifier>{ec39bcae-6edd-46cc-a0f8-79db20ac9990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\AutoDetonate">
+      <UniqueIdentifier>{177daaf9-b736-4c86-980e-1084c32d8fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot\Projectile\MoveSim">
+      <UniqueIdentifier>{1c0fda77-334d-4af9-a6c0-d3dd21e9b5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Aimbot\Projectile\ProjectileSim [ONLY USED IN PROJ TRACE]">
+      <UniqueIdentifier>{29c168f6-968e-479e-a232-f39a16a792be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Networking">
+      <UniqueIdentifier>{59495bd7-41d6-4047-9427-092eb6908ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry\Hooks\Detours\client">
+      <UniqueIdentifier>{9b0f3b6f-f240-492e-bffe-98ebb4d28b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry\Hooks\Detours\clientmode">
+      <UniqueIdentifier>{42539c47-3f46-4834-a266-4877a623d085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry\Hooks\Detours\engine">
+      <UniqueIdentifier>{dd4572ed-e659-4ebd-978f-06843835e396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry\Hooks\Detours\surface_hooks">
+      <UniqueIdentifier>{5ccbb46b-12a9-4480-9050-8ac32fc1a511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry\Hooks\Detours\input_hooks">
+      <UniqueIdentifier>{ee9dc3c9-7710-400b-a2fc-45f82506cae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry\Hooks\Detours\panels_hooks">
+      <UniqueIdentifier>{016b155d-27ad-4a6c-8327-1f16cc430b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entry\Hooks\Detours\enginevgui_hooks">
+      <UniqueIdentifier>{4d0c2ebc-af9c-4bd2-b440-44adfe6dbc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Chams">
+      <UniqueIdentifier>{fecf6ede-a497-4518-a04a-0b0ff6f690b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\AutoBackstab">
+      <UniqueIdentifier>{efb5491a-78a3-4598-81a8-650a169663e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\SpectatorList">
+      <UniqueIdentifier>{ac62da35-fcf7-4dac-ba11-e55b2c2ba606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\Math">
+      <UniqueIdentifier>{109fee2b-ce06-4e9d-adb2-32df02e429f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Utils\FNV1A">
+      <UniqueIdentifier>{5dac70e7-975a-4d6b-ac10-44f4f71439cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces">
+      <UniqueIdentifier>{55e89fa3-c6e6-4f42-9754-dbf3cd433376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\chlclient">
+      <UniqueIdentifier>{d4b1c2a5-a216-41f4-a096-3a65ebbc53c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\globals">
+      <UniqueIdentifier>{35822a81-1865-4a9a-9ec8-4ced62779155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\engine">
+      <UniqueIdentifier>{ceaf24e1-d980-4d27-89fc-9718d87a03b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\panels">
+      <UniqueIdentifier>{7da55d9b-d1c4-4bff-991d-666649e53e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\surface">
+      <UniqueIdentifier>{9f2c4a7f-c362-430c-b5cd-204aa2853afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\entlist">
+      <UniqueIdentifier>{2a59a257-a877-4693-8c25-eb3be5b04580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Entities">
+      <UniqueIdentifier>{ec8bd7e8-5a2f-4b3d-8ead-cb00d8064790}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\clientmode">
+      <UniqueIdentifier>{1360d097-c764-4ed2-b16f-e237a81c74c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\prediction">
+      <UniqueIdentifier>{3f7418b9-f275-4316-bc9a-323c73550372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\engine_vgui">
+      <UniqueIdentifier>{d4c5d862-71ad-4110-988e-dc9d417d30ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\modelinfo">
+      <UniqueIdentifier>{3cb398d1-d1f6-4975-8115-7617005ffbcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\clientstate">
+      <UniqueIdentifier>{32c23918-8ea2-49bf-a4d1-958ccde9c3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\cvars">
+      <UniqueIdentifier>{ffbc05c3-c431-4be1-b3d8-64178b7ddee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\input">
+      <UniqueIdentifier>{1fb0ade2-ac5c-47a3-b53a-0ad175ee0bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\debugoverlay">
+      <UniqueIdentifier>{51ae0b83-91a6-4543-bfe6-43c5144f44fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\physics_shit">
+      <UniqueIdentifier>{72745047-7875-4c03-9f86-fc14d4f147e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\RenderView">
+      <UniqueIdentifier>{f70c6d94-f99e-49d2-a29f-eb45211a5002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\CTFGCClientSystem">
+      <UniqueIdentifier>{3a57c9d3-d8cd-48f0-96ac-bc84d8b52e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\model_render">
+      <UniqueIdentifier>{2735f514-4755-4893-8757-53bc9ead6973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\MaterialSystem">
+      <UniqueIdentifier>{5bccb137-1011-4e96-9886-397293667ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces\demo_interfaces">
+      <UniqueIdentifier>{fb01152a-1dcc-483d-b587-e7ec1e5c27ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\buffer.h">
+      <Filter>SDK\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\MinHook.h">
+      <Filter>SDK\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\trampoline.h">
+      <Filter>SDK\minhook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\hde32.h">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\hde64.h">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\pstdint.h">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table32.h">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\hde\table64.h">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>SDK\Utils\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="SigScanner.h">
+      <Filter>SDK\Utils\SigScanner</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>SDK\Utils\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>SDK\Utils\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="CBaseHandle.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_common2.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv2.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IHandleEntity.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawManager.h">
+      <Filter>SDK\Utils\DrawManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePred.h">
+      <Filter>Features\EnginePred</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CNetVars.h">
+      <Filter>SDK\Utils\NetVarManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Features\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>SDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="bitbuf.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Hitscan.h">
+      <Filter>Features\Aimbot\Hitscan</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureManager.h">
+      <Filter>Entry\SignatureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CritHack.h">
+      <Filter>Features\CritHack</Filter>
+    </ClInclude>
+    <ClInclude Include="CVarsB.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Features\Aimbot\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Features\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_freetype.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_stdlib.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>SDK\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\AppsCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\AppTicketCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\BillingCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\BridgeCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\CCallback.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\CGameID.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ClientCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ContentServerCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ControllerCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\CSteamAPIContext.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\CSteamID.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ECurrencyCode.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\EResult.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ESteamAppUpdateStatsQueryType.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ESteamBufferMethod.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ESteamError.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ESteamFindFilter.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ESteamNotify.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ESteamPaymentCardType.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ESteamSeekMethod.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ESteamServerType.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ESteamSubscriptionBillingInfoType.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ESteamSubscriptionStatus.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\EVoiceResult.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\FriendGameInfo.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\FriendsCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\GameCoordinatorCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\GameServerCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\gameserveritem.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\GameServerStatsCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\GameStatsCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\HTTPCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientAppManager.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientApps.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientAudio.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientBilling.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientConfigStore.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientContentServer.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientDepotBuilder.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientDeviceAuth.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientEngine.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientFriends.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientGameCoordinator.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientGameServer.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientGameServerStats.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientGameStats.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientHTTP.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientInventory.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientMasterServerUpdater.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientMatchmaking.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientMatchmakingServers.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientMusic.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientNetworkDeviceManager.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientNetworking.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientProductBuilder.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientRemoteStorage.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientScreenshots.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientShortcuts.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientStreamClient.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientStreamLauncher.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientUGC.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientUnifiedMessages.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientUser.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientUserStats.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\IClientUtils.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\Interface_OSW.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\InventoryCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteam2Bridge001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteam2Bridge002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteam003.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteam004.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteam005.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteam006.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamAppList001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamApps001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamApps002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamApps003.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamApps004.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamApps005.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamApps006.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamApps007.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamAppTicket001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamBilling001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamBilling002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient006.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient007.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient008.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient009.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient010.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient011.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient012.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient013.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient014.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient015.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient016.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamClient017.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamContentServer001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamContentServer002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamController001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends003.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends004.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends005.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends006.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends007.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends008.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends009.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends010.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends011.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends012.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends013.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends014.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamFriends015.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameCoordinator001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServer002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServer003.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServer004.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServer005.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServer006.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServer007.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServer008.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServer009.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServer010.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServer011.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServer012.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameServerStats001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamGameStats001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamHTTP001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamHTTP002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamInventory001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMasterServerUpdater001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMatchmaking001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMatchmaking002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMatchmaking003.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMatchmaking004.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMatchmaking005.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMatchmaking006.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMatchmaking007.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMatchmaking008.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMatchmaking009.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMatchmakingServers001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMatchmakingServers002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamMusic001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamNetworking001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamNetworking002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamNetworking003.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamNetworking004.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamNetworking005.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamOAuth001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage003.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage004.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage005.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage006.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage007.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage008.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage009.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage010.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage011.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamRemoteStorage012.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamScreenshots001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamScreenshots002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamStreamLauncher001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUGC001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUGC002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUGC003.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUnifiedMessages001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser004.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser005.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser006.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser007.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser008.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser009.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser010.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser011.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser012.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser013.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser014.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser015.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser016.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUser017.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUserStats001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUserStats002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUserStats003.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUserStats004.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUserStats005.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUserStats006.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUserStats007.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUserStats008.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUserStats009.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUserStats010.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUserStats011.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUtils001.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUtils002.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUtils003.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUtils004.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUtils005.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUtils006.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ISteamUtils007.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\MasterServerUpdaterCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\MatchmakingCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\MatchMakingKeyValuePair.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\MatchmakingServersCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\MusicCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\NetworkingCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\OAuthCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\POSIXLibrary.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\RemoteStorageCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\ScreenshotsCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\servernetadr.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\Steam.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamAPI.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\Steamclient.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamclientAPI.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamSalt.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\SteamTypes.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\Steamworks.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\StreamLauncherCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamApp.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamAppDependencyInfo.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamAppLaunchOption.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamAppStats.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamAppVersion.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamDiscountQualifier.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamElemInfo.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamError.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamExternalBillingInfo.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamGlobalUserID.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamOfflineStatus.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamPaymentCardInfo.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamPaymentCardReceiptInfo.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamPrepurchaseInfo.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamPrepurchaseReceiptInfo.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamProgress.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamSplitLocalUserID.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamSubscription.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamSubscriptionBillingInfo.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamSubscriptionDiscount.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamSubscriptionReceipt.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamSubscriptionStats.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\TSteamUpdateStats.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\UGCCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\UnifiedMessagesCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\UserCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\UserStatsCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\UtilsCommon.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Steam\Win32Library.h">
+      <Filter>SDK\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityCache.h">
+      <Filter>SDK\EntityCache</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntry.h">
+      <Filter>Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Entry\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CConsole.h">
+      <Filter>Entry\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="PrioritySystem.h">
+      <Filter>Features\Priority</Filter>
+    </ClInclude>
+    <ClInclude Include="Rage.h">
+      <Filter>Features\Priority</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Features\Menu\nigger</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSys.h">
+      <Filter>Features\Menu\nigger</Filter>
+    </ClInclude>
+    <ClInclude Include="NccDraw.h">
+      <Filter>Features\Menu\nigger</Filter>
+    </ClInclude>
+    <ClInclude Include="NccMath.h">
+      <Filter>Features\Menu\nigger</Filter>
+    </ClInclude>
+    <ClInclude Include="NccUtilities.h">
+      <Filter>Features\Menu\nigger</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.h">
+      <Filter>Features\Menu\nigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonts.h">
+      <Filter>Features\Menu\nigger</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash.h">
+      <Filter>SDK\Utils\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAim.h">
+      <Filter>Features\HvH\AA</Filter>
+    </ClInclude>
+    <ClInclude Include="Fakelag.h">
+      <Filter>Features\HvH\Fakelag</Filter>
+    </ClInclude>
+    <ClInclude Include="CAutoDet.h">
+      <Filter>Features\AutoDetonate</Filter>
+    </ClInclude>
+    <ClInclude Include="EntStuff.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CMoveSim.h">
+      <Filter>Features\Aimbot\Projectile\MoveSim</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjSim.h">
+      <Filter>Features\Aimbot\Projectile\ProjectileSim [ONLY USED IN PROJ TRACE]</Filter>
+    </ClInclude>
+    <ClInclude Include="Vars.h">
+      <Filter>Features</Filter>
+    </ClInclude>
+    <ClInclude Include="AttribHookValue.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="utlflags.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Networking.h">
+      <Filter>Features\Networking</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Entry\Hooks\Detours\client</Filter>
+    </ClInclude>
+    <ClInclude Include="clientmode.h">
+      <Filter>Entry\Hooks\Detours\clientmode</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMove.h">
+      <Filter>Entry\Hooks\Detours\clientmode</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_hooks.h">
+      <Filter>Entry\Hooks\Detours\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="surface_hooks.h">
+      <Filter>Entry\Hooks\Detours\surface_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="input_hooks.h">
+      <Filter>Entry\Hooks\Detours\input_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="panel_hooks.h">
+      <Filter>Entry\Hooks\Detours\panels_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="enginevgui_hooks.h">
+      <Filter>Entry\Hooks\Detours\enginevgui_hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>Features\Chams</Filter>
+    </ClInclude>
+    <ClInclude Include="CAutoBackstab.h">
+      <Filter>Features\AutoBackstab</Filter>
+    </ClInclude>
+    <ClInclude Include="SpectatorList.h">
+      <Filter>Features\SpectatorList</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKClasses.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>SDK\Utils\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="FNV1A.h">
+      <Filter>SDK\Utils\FNV1A</Filter>
+    </ClInclude>
+    <ClInclude Include="chlclient.h">
+      <Filter>SDK\Interfaces\chlclient</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>SDK\Interfaces\globals</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>SDK\Interfaces\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="panels.h">
+      <Filter>SDK\Interfaces\panels</Filter>
+    </ClInclude>
+    <ClInclude Include="isurface.h">
+      <Filter>SDK\Interfaces\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="entlist.h">
+      <Filter>SDK\Interfaces\entlist</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>SDK\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="client_mode.h">
+      <Filter>SDK\Interfaces\clientmode</Filter>
+    </ClInclude>
+    <ClInclude Include="prediction.h">
+      <Filter>SDK\Interfaces\prediction</Filter>
+    </ClInclude>
+    <ClInclude Include="engine_vgui.h">
+      <Filter>SDK\Interfaces\engine_vgui</Filter>
+    </ClInclude>
+    <ClInclude Include="modelinfo.h">
+      <Filter>SDK\Interfaces\modelinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="clientstate.h">
+      <Filter>SDK\Interfaces\clientstate</Filter>
+    </ClInclude>
+    <ClInclude Include="cvars.h">
+      <Filter>SDK\Interfaces\cvars</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>SDK\Interfaces\input</Filter>
+    </ClInclude>
+    <ClInclude Include="debugoverlay.h">
+      <Filter>SDK\Interfaces\debugoverlay</Filter>
+    </ClInclude>
+    <ClInclude Include="physics_shit.h">
+      <Filter>SDK\Interfaces\physics_shit</Filter>
+    </ClInclude>
+    <ClInclude Include="render_view.h">
+      <Filter>SDK\Interfaces\RenderView</Filter>
+    </ClInclude>
+    <ClInclude Include="CTFGCClientSystem.h">
+      <Filter>SDK\Interfaces\CTFGCClientSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="model_render.h">
+      <Filter>SDK\Interfaces\model_render</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialSystem.h">
+      <Filter>SDK\Interfaces\MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="demo_interface.h">
+      <Filter>SDK\Interfaces\demo_interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix3x4.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientClass.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserCmd.h">
+      <Filter>SDK\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MinHook\buffer.c">
+      <Filter>SDK\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hook.c">
+      <Filter>SDK\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\trampoline.c">
+      <Filter>SDK\minhook</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde\hde32.c">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\hde\hde64.c">
+      <Filter>SDK\minhook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="SigScanner.cpp">
+      <Filter>SDK\Utils\SigScanner</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawManager.cpp">
+      <Filter>SDK\Utils\DrawManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>SDK\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePred.cpp">
+      <Filter>Features\EnginePred</Filter>
+    </ClCompile>
+    <ClCompile Include="CNetVars.cpp">
+      <Filter>SDK\Utils\NetVarManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CBaseEntity.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Features\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="bitbuf.cpp">
+      <Filter>SDK\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Hitscan.cpp">
+      <Filter>Features\Aimbot\Hitscan</Filter>
+    </ClCompile>
+    <ClCompile Include="SignatureManager.cpp">
+      <Filter>Entry\SignatureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CritHack.cpp">
+      <Filter>Features\CritHack</Filter>
+    </ClCompile>
+    <ClCompile Include="CVarsB.cpp">
+      <Filter>SDK\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Features\Aimbot\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_freetype.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_stdlib.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>SDK\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Features\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityCache.cpp">
+      <Filter>SDK\EntityCache</Filter>
+    </ClCompile>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>SDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Entry\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="PrioritySystem.cpp">
+      <Filter>Features\Priority</Filter>
+    </ClCompile>
+    <ClCompile Include="Rage.cpp">
+      <Filter>Features\Priority</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Features\Menu\nigger</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSys.cpp">
+      <Filter>Features\Menu\nigger</Filter>
+    </ClCompile>
+    <ClCompile Include="NccUtilities.cpp">
+      <Filter>Features\Menu\nigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Fonts.cpp">
+      <Filter>Features\Menu\nigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Hash.cpp">
+      <Filter>SDK\Utils\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="AntiAim.cpp">
+      <Filter>Features\HvH\AA</Filter>
+    </ClCompile>
+    <ClCompile Include="Fakelag.cpp">
+      <Filter>Features\HvH\Fakelag</Filter>
+    </ClCompile>
+    <ClCompile Include="CAutoDetoante.cpp">
+      <Filter>Features\AutoDetonate</Filter>
+    </ClCompile>
+    <ClCompile Include="CMoveSim.cpp">
+      <Filter>Features\Aimbot\Projectile\MoveSim</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjSim.cpp">
+      <Filter>Features\Aimbot\Projectile\ProjectileSim [ONLY USED IN PROJ TRACE]</Filter>
+    </ClCompile>
+    <ClCompile Include="Networking.cpp">
+      <Filter>Features\Networking</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Entry\Hooks\Detours\client</Filter>
+    </ClCompile>
+    <ClCompile Include="clientmode.cpp">
+      <Filter>Entry\Hooks\Detours\clientmode</Filter>
+    </ClCompile>
+    <ClCompile Include="engine_hooks.cpp">
+      <Filter>Entry\Hooks\Detours\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="surface_hooks.cpp">
+      <Filter>Entry\Hooks\Detours\surface_hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="input_hooks.cpp">
+      <Filter>Entry\Hooks\Detours\input_hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="panel_hooks.cpp">
+      <Filter>Entry\Hooks\Detours\panels_hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="enginevgui_hooks.cpp">
+      <Filter>Entry\Hooks\Detours\enginevgui_hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>Features\Chams</Filter>
+    </ClCompile>
+    <ClCompile Include="CAutoBackstab.cpp">
+      <Filter>Features\AutoBackstab</Filter>
+    </ClCompile>
+    <ClCompile Include="SpectatorList.cpp">
+      <Filter>Features\SpectatorList</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

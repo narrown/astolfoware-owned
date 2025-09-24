@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseAVX2|Win32">
+      <Configuration>ReleaseAVX2</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseAVX2|x64">
+      <Configuration>ReleaseAVX2</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{47f271cc-f771-4235-93b0-bff583e53aa8}</ProjectGuid>
+    <RootNamespace>DarkstormForNewx32</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>astolfoware2024</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>$(ProjectName)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>astolfowarefortf2_avx2</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalOptions>/arch:AVX2 %(AdditionalOptions)</AdditionalOptions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/arch:AVX2 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAVX2|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiAim.h" />
+    <ClInclude Include="AttribHookValue.h" />
+    <ClInclude Include="bitbuf.h" />
+    <ClInclude Include="bspflags.h" />
+    <ClInclude Include="CAutoBackstab.h" />
+    <ClInclude Include="CAutoDet.h" />
+    <ClInclude Include="CBaseHandle.h" />
+    <ClInclude Include="CConsole.h" />
+    <ClInclude Include="CEntry.h" />
+    <ClInclude Include="Chams.h" />
+    <ClInclude Include="chlclient.h" />
+    <ClInclude Include="client.h" />
+    <ClInclude Include="ClientClass.h" />
+    <ClInclude Include="clientmode.h" />
+    <ClInclude Include="clientstate.h" />
+    <ClInclude Include="client_mode.h" />
+    <ClInclude Include="CMoveSim.h" />
+    <ClInclude Include="CNetVars.h" />
+    <ClInclude Include="CreateMove.h" />
+    <ClInclude Include="CritHack.h" />
+    <ClInclude Include="CTFGCClientSystem.h" />
+    <ClInclude Include="CUserCmd.h" />
+    <ClInclude Include="cvars.h" />
+    <ClInclude Include="CVarsB.h" />
+    <ClInclude Include="debugoverlay.h" />
+    <ClInclude Include="demo_interface.h" />
+    <ClInclude Include="DrawManager.h" />
+    <ClInclude Include="dt_common2.h" />
+    <ClInclude Include="dt_recv2.h" />
+    <ClInclude Include="engine.h" />
+    <ClInclude Include="EnginePred.h" />
+    <ClInclude Include="enginevgui_hooks.h" />
+    <ClInclude Include="engine_hooks.h" />
+    <ClInclude Include="engine_vgui.h" />
+    <ClInclude Include="Entities.h" />
+    <ClInclude Include="EntityCache.h" />
+    <ClInclude Include="entlist.h" />
+    <ClInclude Include="EntStuff.h" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="ESP.h" />
+    <ClInclude Include="Fakelag.h" />
+    <ClInclude Include="FNV1A.h" />
+    <ClInclude Include="Fonts.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="GUI.h" />
+    <ClInclude Include="Hash.h" />
+    <ClInclude Include="Hitscan.h" />
+    <ClInclude Include="Hooks.h" />
+    <ClInclude Include="IHandleEntity.h" />
+    <ClInclude Include="ImGui\imconfig.h" />
+    <ClInclude Include="ImGui\imgui.h" />
+    <ClInclude Include="ImGui\imgui_freetype.h" />
+    <ClInclude Include="ImGui\imgui_impl_dx9.h" />
+    <ClInclude Include="ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="ImGui\imgui_internal.h" />
+    <ClInclude Include="ImGui\imgui_stdlib.h" />
+    <ClInclude Include="ImGui\imstb_rectpack.h" />
+    <ClInclude Include="ImGui\imstb_textedit.h" />
+    <ClInclude Include="ImGui\imstb_truetype.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="input_hooks.h" />
+    <ClInclude Include="InputSys.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="isurface.h" />
+    <ClInclude Include="MaterialSystem.h" />
+    <ClInclude Include="Math.h" />
+    <ClInclude Include="matrix3x4.h" />
+    <ClInclude Include="MD5.h" />
+    <ClInclude Include="Memory.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MinHook\buffer.h" />
+    <ClInclude Include="MinHook\hde\hde32.h" />
+    <ClInclude Include="MinHook\hde\hde64.h" />
+    <ClInclude Include="MinHook\hde\pstdint.h" />
+    <ClInclude Include="MinHook\hde\table32.h" />
+    <ClInclude Include="MinHook\hde\table64.h" />
+    <ClInclude Include="MinHook\MinHook.h" />
+    <ClInclude Include="MinHook\trampoline.h" />
+    <ClInclude Include="Misc.h" />
+    <ClInclude Include="modelinfo.h" />
+    <ClInclude Include="model_render.h" />
+    <ClInclude Include="NccDraw.h" />
+    <ClInclude Include="NccMath.h" />
+    <ClInclude Include="NccUtilities.h" />
+    <ClInclude Include="Networking.h" />
+    <ClInclude Include="panels.h" />
+    <ClInclude Include="panel_hooks.h" />
+    <ClInclude Include="physics_shit.h" />
+    <ClInclude Include="prediction.h" />
+    <ClInclude Include="PrioritySystem.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="ProjSim.h" />
+    <ClInclude Include="Rage.h" />
+    <ClInclude Include="render_view.h" />
+    <ClInclude Include="SDK.h" />
+    <ClInclude Include="SDKClasses.h" />
+    <ClInclude Include="SignatureManager.h" />
+    <ClInclude Include="SigScanner.h" />
+    <ClInclude Include="singleton.h" />
+    <ClInclude Include="SpectatorList.h" />
+    <ClInclude Include="Steam\AppsCommon.h" />
+    <ClInclude Include="Steam\AppTicketCommon.h" />
+    <ClInclude Include="Steam\BillingCommon.h" />
+    <ClInclude Include="Steam\BridgeCommon.h" />
+    <ClInclude Include="Steam\CCallback.h" />
+    <ClInclude Include="Steam\CGameID.h" />
+    <ClInclude Include="Steam\ClientCommon.h" />
+    <ClInclude Include="Steam\ContentServerCommon.h" />
+    <ClInclude Include="Steam\ControllerCommon.h" />
+    <ClInclude Include="Steam\CSteamAPIContext.h" />
+    <ClInclude Include="Steam\CSteamID.h" />
+    <ClInclude Include="Steam\ECurrencyCode.h" />
+    <ClInclude Include="Steam\EResult.h" />
+    <ClInclude Include="Steam\ESteamAppUpdateStatsQueryType.h" />
+    <ClInclude Include="Steam\ESteamBufferMethod.h" />
+    <ClInclude Include="Steam\ESteamError.h" />
+    <ClInclude Include="Steam\ESteamFindFilter.h" />
+    <ClInclude Include="Steam\ESteamNotify.h" />
+    <ClInclude Include="Steam\ESteamPaymentCardType.h" />
+    <ClInclude Include="Steam\ESteamSeekMethod.h" />
+    <ClInclude Include="Steam\ESteamServerType.h" />
+    <ClInclude Include="Steam\ESteamSubscriptionBillingInfoType.h" />
+    <ClInclude Include="Steam\ESteamSubscriptionStatus.h" />
+    <ClInclude Include="Steam\EVoiceResult.h" />
+    <ClInclude Include="Steam\FriendGameInfo.h" />
+    <ClInclude Include="Steam\FriendsCommon.h" />
+    <ClInclude Include="Steam\GameCoordinatorCommon.h" />
+    <ClInclude Include="Steam\GameServerCommon.h" />
+    <ClInclude Include="Steam\gameserveritem.h" />
+    <ClInclude Include="Steam\GameServerStatsCommon.h" />
+    <ClInclude Include="Steam\GameStatsCommon.h" />
+    <ClInclude Include="Steam\HTTPCommon.h" />
+    <ClInclude Include="Steam\IClientAppManager.h" />
+    <ClInclude Include="Steam\IClientApps.h" />
+    <ClInclude Include="Steam\IClientAudio.h" />
+    <ClInclude Include="Steam\IClientBilling.h" />
+    <ClInclude Include="Steam\IClientConfigStore.h" />
+    <ClInclude Include="Steam\IClientContentServer.h" />
+    <ClInclude Include="Steam\IClientDepotBuilder.h" />
+    <ClInclude Include="Steam\IClientDeviceAuth.h" />
+    <ClInclude Include="Steam\IClientEngine.h" />
+    <ClInclude Include="Steam\IClientFriends.h" />
+    <ClInclude Include="Steam\IClientGameCoordinator.h" />
+    <ClInclude Include="Steam\IClientGameServer.h" />
+    <ClInclude Include="Steam\IClientGameServerStats.h" />
+    <ClInclude Include="Steam\IClientGameStats.h" />
+    <ClInclude Include="Steam\IClientHTTP.h" />
+    <ClInclude Include="Steam\IClientInventory.h" />
+    <ClInclude Include="Steam\IClientMasterServerUpdater.h" />
+    <ClInclude Include="Steam\IClientMatchmaking.h" />
+    <ClInclude Include="Steam\IClientMatchmakingServers.h" />
+    <ClInclude Include="Steam\IClientMusic.h" />
+    <ClInclude Include="Steam\IClientNetworkDeviceManager.h" />
+    <ClInclude Include="Steam\IClientNetworking.h" />
+    <ClInclude Include="Steam\IClientProductBuilder.h" />
+    <ClInclude Include="Steam\IClientRemoteStorage.h" />
+    <ClInclude Include="Steam\IClientScreenshots.h" />
+    <ClInclude Include="Steam\IClientShortcuts.h" />
+    <ClInclude Include="Steam\IClientStreamClient.h" />
+    <ClInclude Include="Steam\IClientStreamLauncher.h" />
+    <ClInclude Include="Steam\IClientUGC.h" />
+    <ClInclude Include="Steam\IClientUnifiedMessages.h" />
+    <ClInclude Include="Steam\IClientUser.h" />
+    <ClInclude Include="Steam\IClientUserStats.h" />
+    <ClInclude Include="Steam\IClientUtils.h" />
+    <ClInclude Include="Steam\Interface_OSW.h" />
+    <ClInclude Include="Steam\InventoryCommon.h" />
+    <ClInclude Include="Steam\ISteam003.h" />
+    <ClInclude Include="Steam\ISteam004.h" />
+    <ClInclude Include="Steam\ISteam005.h" />
+    <ClInclude Include="Steam\ISteam006.h" />
+    <ClInclude Include="Steam\ISteam2Bridge001.h" />
+    <ClInclude Include="Steam\ISteam2Bridge002.h" />
+    <ClInclude Include="Steam\ISteamAppList001.h" />
+    <ClInclude Include="Steam\ISteamApps001.h" />
+    <ClInclude Include="Steam\ISteamApps002.h" />
+    <ClInclude Include="Steam\ISteamApps003.h" />
+    <ClInclude Include="Steam\ISteamApps004.h" />
+    <ClInclude Include="Steam\ISteamApps005.h" />
+    <ClInclude Include="Steam\ISteamApps006.h" />
+    <ClInclude Include="Steam\ISteamApps007.h" />
+    <ClInclude Include="Steam\ISteamAppTicket001.h" />
+    <ClInclude Include="Steam\ISteamBilling001.h" />
+    <ClInclude Include="Steam\ISteamBilling002.h" />
+    <ClInclude Include="Steam\ISteamClient006.h" />
+    <ClInclude Include="Steam\ISteamClient007.h" />
+    <ClInclude Include="Steam\ISteamClient008.h" />
+    <ClInclude Include="Steam\ISteamClient009.h" />
+    <ClInclude Include="Steam\ISteamClient010.h" />
+    <ClInclude Include="Steam\ISteamClient011.h" />
+    <ClInclude Include="Steam\ISteamClient012.h" />
+    <ClInclude Include="Steam\ISteamClient013.h" />
+    <ClInclude Include="Steam\ISteamClient014.h" />
+    <ClInclude Include="Steam\ISteamClient015.h" />
+    <ClInclude Include="Steam\ISteamClient016.h" />
+    <ClInclude Include="Steam\ISteamClient017.h" />
+    <ClInclude Include="Steam\ISteamContentServer001.h" />
+    <ClInclude Include="Steam\ISteamContentServer002.h" />
+    <ClInclude Include="Steam\ISteamController001.h" />
+    <ClInclude Include="Steam\ISteamFriends001.h" />
+    <ClInclude Include="Steam\ISteamFriends002.h" />
+    <ClInclude Include="Steam\ISteamFriends003.h" />
+    <ClInclude Include="Steam\ISteamFriends004.h" />
+    <ClInclude Include="Steam\ISteamFriends005.h" />
+    <ClInclude Include="Steam\ISteamFriends006.h" />
+    <ClInclude Include="Steam\ISteamFriends007.h" />
+    <ClInclude Include="Steam\ISteamFriends008.h" />
+    <ClInclude Include="Steam\ISteamFriends009.h" />
+    <ClInclude Include="Steam\ISteamFriends010.h" />
+    <ClInclude Include="Steam\ISteamFriends011.h" />
+    <ClInclude Include="Steam\ISteamFriends012.h" />
+    <ClInclude Include="Steam\ISteamFriends013.h" />
+    <ClInclude Include="Steam\ISteamFriends014.h" />
+    <ClInclude Include="Steam\ISteamFriends015.h" />
+    <ClInclude Include="Steam\ISteamGameCoordinator001.h" />
+    <ClInclude Include="Steam\ISteamGameServer002.h" />
+    <ClInclude Include="Steam\ISteamGameServer003.h" />
+    <ClInclude Include="Steam\ISteamGameServer004.h" />
+    <ClInclude Include="Steam\ISteamGameServer005.h" />
+    <ClInclude Include="Steam\ISteamGameServer006.h" />
+    <ClInclude Include="Steam\ISteamGameServer007.h" />
+    <ClInclude Include="Steam\ISteamGameServer008.h" />
+    <ClInclude Include="Steam\ISteamGameServer009.h" />
+    <ClInclude Include="Steam\ISteamGameServer010.h" />
+    <ClInclude Include="Steam\ISteamGameServer011.h" />
+    <ClInclude Include="Steam\ISteamGameServer012.h" />
+    <ClInclude Include="Steam\ISteamGameServerStats001.h" />
+    <ClInclude Include="Steam\ISteamGameStats001.h" />
+    <ClInclude Include="Steam\ISteamHTTP001.h" />
+    <ClInclude Include="Steam\ISteamHTTP002.h" />
+    <ClInclude Include="Steam\ISteamInventory001.h" />
+    <ClInclude Include="Steam\ISteamMasterServerUpdater001.h" />
+    <ClInclude Include="Steam\ISteamMatchmaking001.h" />
+    <ClInclude Include="Steam\ISteamMatchmaking002.h" />
+    <ClInclude Include="Steam\ISteamMatchmaking003.h" />
+    <ClInclude Include="Steam\ISteamMatchmaking004.h" />
+    <ClInclude Include="Steam\ISteamMatchmaking005.h" />
+    <ClInclude Include="Steam\ISteamMatchmaking006.h" />
+    <ClInclude Include="Steam\ISteamMatchmaking007.h" />
+    <ClInclude Include="Steam\ISteamMatchmaking008.h" />
+    <ClInclude Include="Steam\ISteamMatchmaking009.h" />
+    <ClInclude Include="Steam\ISteamMatchmakingServers001.h" />
+    <ClInclude Include="Steam\ISteamMatchmakingServers002.h" />
+    <ClInclude Include="Steam\ISteamMusic001.h" />
+    <ClInclude Include="Steam\ISteamNetworking001.h" />
+    <ClInclude Include="Steam\ISteamNetworking002.h" />
+    <ClInclude Include="Steam\ISteamNetworking003.h" />
+    <ClInclude Include="Steam\ISteamNetworking004.h" />
+    <ClInclude Include="Steam\ISteamNetworking005.h" />
+    <ClInclude Include="Steam\ISteamOAuth001.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage001.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage002.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage003.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage004.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage005.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage006.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage007.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage008.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage009.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage010.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage011.h" />
+    <ClInclude Include="Steam\ISteamRemoteStorage012.h" />
+    <ClInclude Include="Steam\ISteamScreenshots001.h" />
+    <ClInclude Include="Steam\ISteamScreenshots002.h" />
+    <ClInclude Include="Steam\ISteamStreamLauncher001.h" />
+    <ClInclude Include="Steam\ISteamUGC001.h" />
+    <ClInclude Include="Steam\ISteamUGC002.h" />
+    <ClInclude Include="Steam\ISteamUGC003.h" />
+    <ClInclude Include="Steam\ISteamUnifiedMessages001.h" />
+    <ClInclude Include="Steam\ISteamUser004.h" />
+    <ClInclude Include="Steam\ISteamUser005.h" />
+    <ClInclude Include="Steam\ISteamUser006.h" />
+    <ClInclude Include="Steam\ISteamUser007.h" />
+    <ClInclude Include="Steam\ISteamUser008.h" />
+    <ClInclude Include="Steam\ISteamUser009.h" />
+    <ClInclude Include="Steam\ISteamUser010.h" />
+    <ClInclude Include="Steam\ISteamUser011.h" />
+    <ClInclude Include="Steam\ISteamUser012.h" />
+    <ClInclude Include="Steam\ISteamUser013.h" />
+    <ClInclude Include="Steam\ISteamUser014.h" />
+    <ClInclude Include="Steam\ISteamUser015.h" />
+    <ClInclude Include="Steam\ISteamUser016.h" />
+    <ClInclude Include="Steam\ISteamUser017.h" />
+    <ClInclude Include="Steam\ISteamUserStats001.h" />
+    <ClInclude Include="Steam\ISteamUserStats002.h" />
+    <ClInclude Include="Steam\ISteamUserStats003.h" />
+    <ClInclude Include="Steam\ISteamUserStats004.h" />
+    <ClInclude Include="Steam\ISteamUserStats005.h" />
+    <ClInclude Include="Steam\ISteamUserStats006.h" />
+    <ClInclude Include="Steam\ISteamUserStats007.h" />
+    <ClInclude Include="Steam\ISteamUserStats008.h" />
+    <ClInclude Include="Steam\ISteamUserStats009.h" />
+    <ClInclude Include="Steam\ISteamUserStats010.h" />
+    <ClInclude Include="Steam\ISteamUserStats011.h" />
+    <ClInclude Include="Steam\ISteamUtils001.h" />
+    <ClInclude Include="Steam\ISteamUtils002.h" />
+    <ClInclude Include="Steam\ISteamUtils003.h" />
+    <ClInclude Include="Steam\ISteamUtils004.h" />
+    <ClInclude Include="Steam\ISteamUtils005.h" />
+    <ClInclude Include="Steam\ISteamUtils006.h" />
+    <ClInclude Include="Steam\ISteamUtils007.h" />
+    <ClInclude Include="Steam\MasterServerUpdaterCommon.h" />
+    <ClInclude Include="Steam\MatchmakingCommon.h" />
+    <ClInclude Include="Steam\MatchMakingKeyValuePair.h" />
+    <ClInclude Include="Steam\MatchmakingServersCommon.h" />
+    <ClInclude Include="Steam\MusicCommon.h" />
+    <ClInclude Include="Steam\NetworkingCommon.h" />
+    <ClInclude Include="Steam\OAuthCommon.h" />
+    <ClInclude Include="Steam\POSIXLibrary.h" />
+    <ClInclude Include="Steam\RemoteStorageCommon.h" />
+    <ClInclude Include="Steam\ScreenshotsCommon.h" />
+    <ClInclude Include="Steam\servernetadr.h" />
+    <ClInclude Include="Steam\Steam.h" />
+    <ClInclude Include="Steam\SteamAPI.h" />
+    <ClInclude Include="Steam\Steamclient.h" />
+    <ClInclude Include="Steam\SteamclientAPI.h" />
+    <ClInclude Include="Steam\SteamSalt.h" />
+    <ClInclude Include="Steam\SteamTypes.h" />
+    <ClInclude Include="Steam\Steamworks.h" />
+    <ClInclude Include="Steam\StreamLauncherCommon.h" />
+    <ClInclude Include="Steam\TSteamApp.h" />
+    <ClInclude Include="Steam\TSteamAppDependencyInfo.h" />
+    <ClInclude Include="Steam\TSteamAppLaunchOption.h" />
+    <ClInclude Include="Steam\TSteamAppStats.h" />
+    <ClInclude Include="Steam\TSteamAppVersion.h" />
+    <ClInclude Include="Steam\TSteamDiscountQualifier.h" />
+    <ClInclude Include="Steam\TSteamElemInfo.h" />
+    <ClInclude Include="Steam\TSteamError.h" />
+    <ClInclude Include="Steam\TSteamExternalBillingInfo.h" />
+    <ClInclude Include="Steam\TSteamGlobalUserID.h" />
+    <ClInclude Include="Steam\TSteamOfflineStatus.h" />
+    <ClInclude Include="Steam\TSteamPaymentCardInfo.h" />
+    <ClInclude Include="Steam\TSteamPaymentCardReceiptInfo.h" />
+    <ClInclude Include="Steam\TSteamPrepurchaseInfo.h" />
+    <ClInclude Include="Steam\TSteamPrepurchaseReceiptInfo.h" />
+    <ClInclude Include="Steam\TSteamProgress.h" />
+    <ClInclude Include="Steam\TSteamSplitLocalUserID.h" />
+    <ClInclude Include="Steam\TSteamSubscription.h" />
+    <ClInclude Include="Steam\TSteamSubscriptionBillingInfo.h" />
+    <ClInclude Include="Steam\TSteamSubscriptionDiscount.h" />
+    <ClInclude Include="Steam\TSteamSubscriptionReceipt.h" />
+    <ClInclude Include="Steam\TSteamSubscriptionStats.h" />
+    <ClInclude Include="Steam\TSteamUpdateStats.h" />
+    <ClInclude Include="Steam\UGCCommon.h" />
+    <ClInclude Include="Steam\UnifiedMessagesCommon.h" />
+    <ClInclude Include="Steam\UserCommon.h" />
+    <ClInclude Include="Steam\UserStatsCommon.h" />
+    <ClInclude Include="Steam\UtilsCommon.h" />
+    <ClInclude Include="Steam\Win32Library.h" />
+    <ClInclude Include="studio.h" />
+    <ClInclude Include="surface_hooks.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="utlflags.h" />
+    <ClInclude Include="Vars.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Visuals.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiAim.cpp" />
+    <ClCompile Include="bitbuf.cpp" />
+    <ClCompile Include="CAutoBackstab.cpp" />
+    <ClCompile Include="CAutoDetoante.cpp" />
+    <ClCompile Include="CBaseEntity.cpp" />
+    <ClCompile Include="Chams.cpp" />
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="clientmode.cpp" />
+    <ClCompile Include="CMoveSim.cpp" />
+    <ClCompile Include="CNetVars.cpp" />
+    <ClCompile Include="CritHack.cpp" />
+    <ClCompile Include="CVarsB.cpp" />
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="DrawManager.cpp" />
+    <ClCompile Include="enginevgui_hooks.cpp" />
+    <ClCompile Include="engine_hooks.cpp" />
+    <ClCompile Include="EnginePred.cpp" />
+    <ClCompile Include="EntityCache.cpp" />
+    <ClCompile Include="Entry.cpp" />
+    <ClCompile Include="ESP.cpp" />
+    <ClCompile Include="Fakelag.cpp" />
+    <ClCompile Include="Fonts.cpp" />
+    <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="Hash.cpp" />
+    <ClCompile Include="Hitscan.cpp" />
+    <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp" />
+    <ClCompile Include="ImGui\imgui_demo.cpp" />
+    <ClCompile Include="ImGui\imgui_draw.cpp" />
+    <ClCompile Include="ImGui\imgui_freetype.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="ImGui\imgui_stdlib.cpp" />
+    <ClCompile Include="ImGui\imgui_tables.cpp" />
+    <ClCompile Include="ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="InputSys.cpp" />
+    <ClCompile Include="input_hooks.cpp" />
+    <ClCompile Include="Interfaces.cpp" />
+    <ClCompile Include="MD5.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MinHook\buffer.c" />
+    <ClCompile Include="MinHook\hde\hde32.c" />
+    <ClCompile Include="MinHook\hde\hde64.c" />
+    <ClCompile Include="MinHook\hook.c" />
+    <ClCompile Include="MinHook\trampoline.c" />
+    <ClCompile Include="Misc.cpp" />
+    <ClCompile Include="NccUtilities.cpp" />
+    <ClCompile Include="Networking.cpp" />
+    <ClCompile Include="panel_hooks.cpp" />
+    <ClCompile Include="PrioritySystem.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="ProjSim.cpp" />
+    <ClCompile Include="Rage.cpp" />
+    <ClCompile Include="SignatureManager.cpp" />
+    <ClCompile Include="SigScanner.cpp" />
+    <ClCompile Include="SpectatorList.cpp" />
+    <ClCompile Include="surface_hooks.cpp" />
+    <ClCompile Include="Visuals.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
